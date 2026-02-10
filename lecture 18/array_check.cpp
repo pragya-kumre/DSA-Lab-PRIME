@@ -9,7 +9,7 @@ int arr[n];
 for(int i=0;i<n;i++){
     cin>>arr[i];
 }
-int k;
+int k;//int value =19
 cin>>k;
 int ans;
 for(int i=0;i<n;i++){
