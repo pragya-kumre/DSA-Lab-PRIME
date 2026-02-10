@@ -11,7 +11,7 @@ for(int i=0;i<n;i++){
 }
 int k;//int value =19
 cin>>k;
-int ans;
+
 for(int i=0;i<n;i++){
     if(arr[i]==k){   
         cout<<i+1;
