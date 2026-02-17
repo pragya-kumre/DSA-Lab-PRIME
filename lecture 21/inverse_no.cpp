@@ -34,6 +34,6 @@ int main() {
                           P   N  P   N  P  N   P   N  P   N      (p->position ,N->number)
                 so now in 5-->1, 4-->2, 3-->5, 2-->3, 1-->4
                              o/p  --->  12534
-                         position -->   ↪54321
+                         position -->   54321
 
 */
