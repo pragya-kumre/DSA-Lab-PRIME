@@ -37,8 +37,9 @@ int main() {
             for(int i=bottom;i>=top;i--){
                 cout<<arr[i][left]<<" ";
             }
+            left++;
         }
-        left++;
+        
     }
 
     return 0;
