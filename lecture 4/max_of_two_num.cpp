@@ -4,7 +4,7 @@ using namespace std;
 int main() {
  int a,b;
  cin>>a>>b;
- if(a>b){
+ if(a>b){   //max of two
     cout<<a;
  }  else{
     cout<<b;

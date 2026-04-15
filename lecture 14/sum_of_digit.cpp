@@ -13,4 +13,4 @@ while (n!=0)
 }
 cout<<abs(rev)<<endl;
  return 0;
-}
+}    //reverse number
