@@ -18,13 +18,13 @@ int main() {
  }    
  return 0;
 }
-/*
+/*   for patern printing
 Row symetric
 just copy first code 
 swap(i=1 to i=n)
 greater smaller then(toggel)
 ++ t0 --(toggel)
-in below code
+in below code         
 
 Row asymmetric
 just copy first code 

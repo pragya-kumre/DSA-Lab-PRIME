@@ -25,7 +25,7 @@ int main() {
 /*   
 column symetric (in star)
  for(){
-   a
+   a->for loop
    b
    c
    c

@@ -30,5 +30,5 @@ int main() {
 //    c(int j=1;j<=i-1;j++)
 //    b
 //    a
-//    cout<<endl;
+//    cout<<endl;  *
 // }
