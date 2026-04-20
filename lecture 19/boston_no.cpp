@@ -41,3 +41,47 @@ int main() {
  }
  return 0;
 }
+/*
+A Boston number is a number whose sum of digits equals the sum of digits of its prime factors (including repetition).
+
+Steps:
+
+1.Find prime factors of the number
+2.Add digits of those factors
+3.Compare with sum of digits of original number
+4.If both are equal → Boston number
+
+Example 1
+
+Input:22
+Step 1: Prime factors
+    22 = 2 × 11
+
+Step 2: Sum of digits of factor
+    2 → 2
+    11 → 1 + 1 = 2
+
+Total: 2 + 2 = 4
+
+Step 3: Sum of digits of 22
+2 + 2 = 4
+
+Output:  Boston number ✔
+
+Example 2
+Input: 21
+
+Step 1: Prime factors
+21 = 3 × 7
+
+Step 2:
+   3 → 3
+   7 → 7
+
+Total: 10
+
+Step 3: Sum of digits of 21
+2 + 1 = 3
+
+Output: Not a Boston number ✘
+*/
