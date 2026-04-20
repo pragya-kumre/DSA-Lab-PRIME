@@ -10,5 +10,5 @@ int main() {
     }
     cout<<endl;
  }
- return 0;  //pattern
+ return 0;  
 }

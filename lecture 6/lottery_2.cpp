@@ -4,7 +4,7 @@ using namespace std;
 int main() {
  int n;
  cin>>n;
- if(n>=300 && n<=460){     //nested else if
+ if(n>=300 && n<=460){     
  cout<<"You won a MacBook!"<<endl;
 
  if(n>=300 && n<=380){
