@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
- int m;            //holllow diamond
+ int m;            
  cin>>m;
  int n=(m+1)/2;
 for(int i=1;i<=n;i++){
