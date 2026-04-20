@@ -23,7 +23,7 @@ int main() {
  return 0;
 }
 /*   
-column symetric (in star)
+column symetric 
  for(){
    a->for loop
    b

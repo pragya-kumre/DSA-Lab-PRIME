@@ -22,7 +22,7 @@ int main() {
  }   
  return 0;
 }
-// column asymetric (in star)
+// column asymetric 
 //  for(){
 //    a
 //    b

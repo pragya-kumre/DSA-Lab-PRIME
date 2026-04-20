@@ -18,7 +18,7 @@ int main() {
  }    
  return 0;
 }
-/*   for patern printing
+/*   
 Row symetric
 just copy first code 
 swap(i=1 to i=n)
