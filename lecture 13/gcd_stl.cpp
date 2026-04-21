@@ -12,4 +12,4 @@ int main() {
     int b=10;
     cout<<__gcd(a,b);
  return 0;
-}
+} //gcd=hcf
