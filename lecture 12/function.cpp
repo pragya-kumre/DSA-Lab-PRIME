@@ -23,10 +23,10 @@ int add(int a,int b){
 int main() {
     greet();
     great("Pragya");
-    //1
+    //1 way
     int a=add(8,3);
     cout<<a<<endl;
-    //2
+    //2 way
     cout<<add(8,3)<<endl;
     cout<<subtract()<<endl;
  return 0;
