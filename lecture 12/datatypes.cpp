@@ -17,7 +17,7 @@ int main() {
  //float
  double e=7.93567;
  cout<<e*4.5577869<<endl;
- //sizeoperator
+ //size operator
  cout<<sizeof(a)<<endl;
  cout<<sizeof(b)<<endl;
  cout<<sizeof(c)<<endl;
