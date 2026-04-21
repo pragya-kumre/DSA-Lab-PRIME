@@ -5,7 +5,7 @@ int main() {
   int n;
  cin>>n;
  bool ans=true;
- for(int i=2;i<=n/2;i++){
+ for(int i=2;i<=n/2;i++){  //more optimize
     if(n%i==0){
         ans=true;
         break;
