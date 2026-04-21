@@ -6,7 +6,7 @@ int main() {
  int n;
  cin>>n;
  bool ans=false;
- for(int i=2;i<=sqrt(n);i++){
+ for(int i=2;i<=sqrt(n);i++){  //checking
     if(n%i==0){
         ans=true;
         break;
