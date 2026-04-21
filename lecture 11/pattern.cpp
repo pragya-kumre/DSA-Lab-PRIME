@@ -54,3 +54,4 @@ for(int i=n-1;i>=1;i--){
      }  
   return 0;
 }
+  //hour clock rotate
