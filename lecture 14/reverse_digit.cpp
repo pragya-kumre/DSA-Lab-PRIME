@@ -8,7 +8,7 @@ int rev=0;
 while (n>0)
 {
   int k=n%10;
-  rev=rev*10+k;
+  rev=rev*10+k;  //reverse
   n/=10;
 }
 cout<<rev<<endl;
