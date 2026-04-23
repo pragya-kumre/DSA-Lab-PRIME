@@ -9,7 +9,7 @@ int main() {
   int g=0;
   while(n>0){
     int k=n%10;
-    sum=sum+k*pow(2,g);
+    sum=sum+k*pow(2,g); //
     n=n/10;
     g++;
   }  
