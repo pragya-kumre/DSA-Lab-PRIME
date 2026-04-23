@@ -6,6 +6,7 @@ int fibbo(int g){
     }
     return fibbo(g-1)+fibbo(g-2);
 }
+
 int main() {
     int n;
     cin>>n;
@@ -13,4 +14,4 @@ int main() {
     cout<<fibbo(i)<<" ";
     }
  return 0;
-}
+}  
