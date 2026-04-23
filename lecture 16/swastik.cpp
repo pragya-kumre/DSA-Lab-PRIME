@@ -33,6 +33,7 @@ int main() {
     }
     cout<<endl;
    } 
+   
       for(int i=m-1;i>=1;i--){
     if(i==1){
     
