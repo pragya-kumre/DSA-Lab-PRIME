@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     //crate
     //first way
- int arr[5]   ;//by default garbage value &we can change it in future
+ int arr[5];  //by default garbage value &we can change it in future
  //second way
  arr[0]=1;
  arr[1]=1;
