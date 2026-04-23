@@ -9,6 +9,7 @@ int rev(int n){
     }
     return rev;
 }
+
 int main() {
     int n;
     cin>>n;
