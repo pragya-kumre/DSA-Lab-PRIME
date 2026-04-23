@@ -11,4 +11,4 @@ int main() {
     cin>>n;
     cout<<fibbo(n)<<endl;
  return 0;
-}
+}  // tell in which place the fibonacc come like in 7 place -> 13 comes
