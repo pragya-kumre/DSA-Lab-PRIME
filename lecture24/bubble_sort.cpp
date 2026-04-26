@@ -15,7 +15,7 @@ int main() {
         }
     }
  }
- cout<<"Sorted array through Bubble sort"<<endl;
+ cout<<"Sorted array through Bubble sort"<<endl;        
  for(int i=0;i<n;i++){
     cout<<arr[i]<<" ";
  }
