@@ -13,14 +13,14 @@ vector<int>convert(int n){
 int main() {
     int n; //31245
     cin>>n;
-    vector<int> number=convert(n);  //[54213]
+    vector<int> number=convert(n);    //[54213]
     vector <int> ans(number.size()+1);
-    for(int i=0;i<number.size();i++){   //[_,12534]
+    for(int i=0;i<number.size();i++){    //[_,12534]
      ans[number[i]]=i+1;
 
     }
     for(int i=number.size();i>=1;i--){
-        cout<<ans[i];  //12534
+        cout<<ans[i];   //12534
     }
  
  return 0;
