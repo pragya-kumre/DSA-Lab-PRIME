@@ -16,7 +16,7 @@ int main() {
 
     //size of array
     cout<<"size: "<<a.size()<<endl;
-    cout<<"capacity: "<<a.capacity()<<endl;// capacity of vector kitni jagha gher rha hai
+    cout<<"capacity: "<<a.capacity()<<endl;   // capacity of vector kitni jagha gher rha hai
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";  //print array
     }
@@ -45,6 +45,7 @@ cout << endl;
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
     }
+
     //from end add array
       a.insert(a.end()-1,6);
     for(int i=0;i<a.size();i++){
@@ -52,7 +53,7 @@ cout << endl;
     }
 
     cout<<endl;
-    int n=5; //initialize size early or take i/p from user
+    int n=5;    //initialize size early or take i/p from user
     vector<int> arr(n,1);
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
