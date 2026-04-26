@@ -15,7 +15,7 @@ int n;
             min=j;
         }
     }
-    swap(arr[i],arr[min]);
+    swap(arr[i],arr[min]);  
  }
  cout<<"Sorted array through selection sort"<<endl;
  for(int i=0;i<n;i++){
