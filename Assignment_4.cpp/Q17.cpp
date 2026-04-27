@@ -25,11 +25,11 @@ int main() {
         int currMin = a[0], minSum = a[0];
 
         for(int i = 1; i < n; i++){
-            // max
+            // maximum
             currMax = max(a[i], currMax + a[i]);
             maxSum = max(maxSum, currMax);
 
-            // min
+            // minimum
             currMin = min(a[i], currMin + a[i]);
             minSum = min(minSum, currMin);
         }
@@ -37,7 +37,7 @@ int main() {
         int result;
 
         if(maxSum < 0){
-            result = maxSum;  // all negative case
+            result = maxSum;   // all negative case
         } else {
             result = max(maxSum, total - minSum);
         }
