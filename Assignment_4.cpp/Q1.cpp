@@ -22,7 +22,7 @@ int main(){
 	}
 	invertedArray(arr,n);
 	for(int i=0;i<n;i++){
-		cout<<arr[i]<<" ";//[1, 3 0, 2]
+		cout<<arr[i]<<" "; //[1, 3 0, 2]
 	}
 	return 0;
 }
