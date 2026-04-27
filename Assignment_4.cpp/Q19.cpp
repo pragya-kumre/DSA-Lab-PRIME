@@ -45,5 +45,4 @@ int main() {
 //     for(int i = 0; i < n; i++){
 //         cout << i << "\t" << nums[i] << "\t" << left[i] << "\t" << right[i] << "\t" << answer[i] << "\n";
 //     }
-
-//     to see hoe both left and right array are workin write this 
+//     to see how both left and right array are workin write this 
