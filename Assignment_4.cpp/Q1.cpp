@@ -7,7 +7,7 @@ void invertedArray(int arr[],int n){
 		inv[arr[i]]=i;  //arr[i]= value from original i.e arr[0]=2 
                         //inv[arr[i]] means go to postion in inv arr
                         // inv[arr[i]]=i out index i there
-                        //
+                        
 	}
 	for(int i=0;i<n;i++){
 		arr[i]=inv[i];
