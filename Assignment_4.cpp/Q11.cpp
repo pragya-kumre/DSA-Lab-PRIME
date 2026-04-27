@@ -10,7 +10,7 @@ int main() {
         cin >> arr[i];
     }
 
-    int pos = n - 1; // or sor(arr,arr+n);
+    int pos = n - 1;   // or sort(arr,arr+n);
     for(int i = n - 1; i >= 0; i--){
         if(arr[i] != 0){
             arr[pos] = arr[i];
