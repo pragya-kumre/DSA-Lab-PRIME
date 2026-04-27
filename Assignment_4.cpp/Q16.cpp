@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 void insertionSort(vector <int> &v,int n){ 
     for(int i = 1; i < n; i++) {
         int key = v[i];
@@ -12,6 +13,7 @@ void insertionSort(vector <int> &v,int n){
         v[j + 1] = key;
     }
 }
+
 int main() {
     int n;
     cin>> n;
