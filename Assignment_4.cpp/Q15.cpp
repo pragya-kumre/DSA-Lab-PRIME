@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 void selectionSort(vector <int> &v,int n){ 
     for(int i=0;i<n;i++){
         int min=i;
@@ -12,6 +13,7 @@ void selectionSort(vector <int> &v,int n){
         swap(v[i],v[min]);
     }
 }
+
 int main() {
     int n;
     cin>> n;
