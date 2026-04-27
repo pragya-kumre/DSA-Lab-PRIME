@@ -11,6 +11,7 @@ void bubbleSort(vector <int> &v){
      }
     }
 }
+
 int main() {
     int n;
     cin>> n;
