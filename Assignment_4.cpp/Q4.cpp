@@ -11,7 +11,7 @@ int main() {
  }  
  int target;
  cin>>target; 
-sort(arr,arr+n);
+ sort(arr,arr+n);
 
     int left=0;
     int right = n-1;
