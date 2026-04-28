@@ -15,18 +15,18 @@ int main() {
  while(left<=right && top<=bottom){
     // left->right
     for(int i=left;i<=right;i++){
-        cout<<arr[top][i]<<", ";  //top
+        cout<<arr[top][i]<<", ";  //top print
     }
     top++;
     //top->bottom
     for(int i=top;i<=bottom;i++){
-        cout<<arr[i][right]<<", ";  //right
+        cout<<arr[i][right]<<", ";  //right print
     }
     right--;
     if(top<=bottom){
         //right->left
         for(int i=right;i>=left;i--){
-        cout<<arr[bottom][i]<<", ";  //bottom
+        cout<<arr[bottom][i]<<", ";  //bottom print
     }
      bottom--;
     }
@@ -34,7 +34,7 @@ int main() {
     if(left<=right){
         //bottom->top
         for(int i=bottom;i>=top;i--){
-        cout<<arr[i][left]<<", ";  //left
+        cout<<arr[i][left]<<", ";  //left print
     }
      left++;
     }
