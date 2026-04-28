@@ -15,12 +15,12 @@ int main() {
         for(int j=0;j<m;j++){
             if(j%2!=0){
                 for(int i=n-1;i>=0;i--){
-                    cout<<arr[i][j]<<", ";
+                    cout<<arr[i][j]<<", "; // down to up row
                 }
             }
             else {
                 for(int i=0;i<n;i++){
-                    cout<<arr[i][j]<<", ";
+                    cout<<arr[i][j]<<", "; // up to down row print 
                 }
             }
         }
