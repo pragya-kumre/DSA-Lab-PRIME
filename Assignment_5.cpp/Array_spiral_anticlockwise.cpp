@@ -15,25 +15,25 @@ vector<vector<int>> arr(n,vector<int>(m));
  while(left<=right && top<=bottom) {
    //top->bottom
    for(int i=top;i<=bottom;i++){
-    cout<<arr[i][left]<<", ";  //left
+    cout<<arr[i][left]<<", ";  //left row
    }
    left++;
    //left->right
    for(int i=left;i<=right;i++){
-    cout<<arr[bottom][i]<<", ";  // bottom
+    cout<<arr[bottom][i]<<", ";  // bottom row
    }
    bottom--;
     if(left<=right){
    //bottom->top
    for(int i=bottom;i>=top;i--){
-    cout<<arr[i][right]<<", ";  //right
+    cout<<arr[i][right]<<", ";  //right row
    }
 }
    right--;
  if(top<=bottom){
   //right->left
    for(int i=right;i>=left;i--){
-    cout<<arr[top][i]<<", ";  //right
+    cout<<arr[top][i]<<", ";  //right row
    }
    top++;
   }
