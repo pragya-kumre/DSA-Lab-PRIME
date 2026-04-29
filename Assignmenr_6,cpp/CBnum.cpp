@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
+
 bool isCBNum(long long num){
 	if(num==0 || num==1){
 		return false;
@@ -25,6 +26,7 @@ bool isVisited(vector<bool> &visited, int start,int end){
 	}
 	return false;
 }
+
 int main() {
 	int n;
 	string s;
