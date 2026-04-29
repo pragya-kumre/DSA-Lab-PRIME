@@ -6,7 +6,7 @@ int main() {
     string s;
     cin >> s;
 
-    int freq[128] = {0};  // for all ASCII characters
+    int freq[128] = {0};  // For all ASCII characters
 
     // Count frequency
     for(int i = 0; i < s.length(); i++) {
