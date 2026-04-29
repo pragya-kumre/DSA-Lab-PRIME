@@ -16,7 +16,6 @@ void toggle(string &s) {   // pass by reference
 int main() {
     string s;
     cin >> s;
-
     toggle(s);  // now it will actually change the original string
     cout << s;
 
