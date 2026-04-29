@@ -13,7 +13,7 @@ int main() {
             count++;
         } else {
             cout << s[i] ;
-             if (count > 1) {          // Only print count if > 1
+             if (count > 1) {      // Only print count if > 1
                 cout << count;
             count = 1;
         }
