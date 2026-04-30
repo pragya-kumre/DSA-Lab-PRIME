@@ -6,9 +6,9 @@ int main() {
     string s;
     cin >> s;
 
-    int freq[128] = {0};  // For all ASCII characters
+    int freq[128] = {0};  // for all ASCII characters
 
-    // Count frequency
+    // count frequency
     for(int i = 0; i < s.length(); i++) {
         freq[s[i]]++;
     }
@@ -16,7 +16,7 @@ int main() {
     char result;
     int maxFreq = 0;
 
-    // Find first character with maximum frequency
+    // find first character with maximum frequency
     for(int i = 0; i < s.length(); i++) {
         if(freq[s[i]] > maxFreq) {
             maxFreq = freq[s[i]];
