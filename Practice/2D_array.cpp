@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() {  //basic
  int n,m;
  cin>>n>>m;
  int arr[n][m];
