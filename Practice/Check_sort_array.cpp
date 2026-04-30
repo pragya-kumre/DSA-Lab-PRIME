@@ -23,12 +23,14 @@ for(int i=1;i<n;i++){    // if i=0 then arr[0]<arr[-1] which doesnt exist thats 
         break;
     }
 }
+
 // if((checkArray(arr,n))){
 //     cout<<"Yes";
 // }
 // else{
 //     cout<<"No";
 // }
+
 if(isSorted){
     cout<<"Yes";
 }
