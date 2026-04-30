@@ -11,7 +11,7 @@ int main() {
     }
  }
  for(int j = 0; j < m; j++){ 
-    int sum = 0;   // reset for each column
+    int sum = 0;   
     for(int i = 0; i < n; i++){
         sum += arr[i][j];
     }
