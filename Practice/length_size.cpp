@@ -4,6 +4,12 @@ using namespace std;
 
 int main() {
   
+ string str="hello";
+ cout<<str.length()<<endl;
+ cout<<str.size()<<endl;
+ return 0;
+}
+/* other way
 //    char str[]="hello";
 //    int length=0;
 //    int size=0;
@@ -16,8 +22,4 @@ int main() {
 //   cout<<length<<" "<<endl;
 //   cout<<size<<" "<<endl;
 
- string str="hello";
- cout<<str.length()<<endl;
- cout<<str.size()<<endl;
- return 0;
-}
+*/
