@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 void insertionSort(int arr[], int n){
    for(int i = 1; i < n; i++) {
@@ -11,6 +12,7 @@ void insertionSort(int arr[], int n){
         arr[j + 1] = key;
     }
 }
+
 int main() {
 int n;
 cin>>n;
