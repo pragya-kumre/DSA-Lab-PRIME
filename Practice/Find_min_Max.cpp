@@ -34,6 +34,8 @@ int main() {
 //  }
 // cout<<"Minimum element: "<<Min<<endl;
 //  cout<<"Maximum  element: "<<Max<<endl; 
+
+// taking input from user
  int n;
  cin>>n;
  int arr[n];
