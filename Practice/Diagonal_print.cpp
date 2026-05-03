@@ -19,8 +19,8 @@ int main() {
     mainSum+=arr[i][i];
     secSum+=arr[i][size-1-i];
  }
-    cout << "Main diagonal sum: " << mainSum << endl;   //  left corner up -> right corner down diagonal 
-    cout << "Secondary diagonal sum: " << secSum << endl;  //  right up corner -> to left down corner diagonal sum 
+    cout << "Main diagonal sum: " << mainSum << endl;   //  left top corner  -> right down corner  diagonal 
+    cout << "Secondary diagonal sum: " << secSum << endl;  //  right up  -> to left down diagonal sum 
 
     return 0;
 }
