@@ -12,7 +12,7 @@ int main() {
    int k;
    cin>>k;
 
-  /* using flag
+  /* Using flag
   bool ans =false;
    for(int i=0;i<n;i++){
     if(a[i]==k){
