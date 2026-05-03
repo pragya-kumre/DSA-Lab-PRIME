@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
-// bool linearSearch(int arr[], int n,int k){
-//     for(int i=0;i<n;i++){
-//     if(arr[i]==k){
-//       return true;
-//     }
-// }
-// return false;
-// }
+
+/* funtion 
+bool linearSearch(int arr[], int n,int k){
+    for(int i=0;i<n;i++){
+    if(arr[i]==k){
+      return true;
+    }
+}
+return false;
+}*/
+
 int main() {
  int n;
  cin>>n;
