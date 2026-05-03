@@ -1,4 +1,4 @@
-/****using stl Library */
+/****using stl Library ***/
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -26,7 +26,7 @@ int main() {
 
     return 0;
 }
-/*
+/*  Array
 #include <iostream>
 #include <algorithm>
 using namespace std;
