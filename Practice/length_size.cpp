@@ -9,6 +9,7 @@ int main() {
  cout<<str.size()<<endl;
  return 0;
 }
+
 /* other way
 //    char str[]="hello";
 //    int length=0;

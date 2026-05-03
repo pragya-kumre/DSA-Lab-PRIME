@@ -14,13 +14,13 @@ int main() {
     }
 
  int mainSum=0 , secSum=0;
- int size= (n<m)?n:m;//largest square possible
+ int size= (n<m)?n:m;   //largest square possible
  for(int i=0;i<size;i++){
     mainSum+=arr[i][i];
     secSum+=arr[i][size-1-i];
  }
-    cout << "Main diagonal sum: " << mainSum << endl;
-    cout << "Secondary diagonal sum: " << secSum << endl;
+    cout << "Main diagonal sum: " << mainSum << endl;  // left corner up -> right corner down diagonal 
+    cout << "Secondary diagonal sum: " << secSum << endl; // right up corner -> to left down corner diagonal sum 
 
     return 0;
 }

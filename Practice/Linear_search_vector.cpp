@@ -11,19 +11,21 @@ int main() {
    } 
    int k;
    cin>>k;
-//    bool ans =false;
-//    for(int i=0;i<n;i++){
-//     if(a[i]==k){
-//      ans= true;
-//      cout<<i;
-//      break;
 
-//     }
-//    }
-//    if(!ans){
-//     cout<<"-1";
-//  }
- 
+  /* using flag
+  bool ans =false;
+   for(int i=0;i<n;i++){
+    if(a[i]==k){
+     ans= true;
+     cout<<i;
+     break;
+
+    }
+   }
+   if(!ans){
+    cout<<"-1";
+ }
+ */
 int index=-1;
 for(int i=0;i<n;i++){
     if(a[i]==k){

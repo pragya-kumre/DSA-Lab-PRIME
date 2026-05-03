@@ -10,7 +10,6 @@ void bubbleSort(int arr[], int n){
         }
     }
 }
-
 int main() {
 int n;
 cin>>n;
