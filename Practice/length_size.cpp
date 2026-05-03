@@ -10,7 +10,7 @@ int main() {
  return 0;
 }
 
-/* other way
+/* Another way
 //    char str[]="hello";
 //    int length=0;
 //    int size=0;
