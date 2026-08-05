@@ -23,7 +23,7 @@ Row symetric
 just copy first code 
 swap(i=1 to i=n)
 greater smaller then(toggel)
-++ t0 --(toggel)
+++ to --(toggel)
 in below code         
 
 Row asymmetric
